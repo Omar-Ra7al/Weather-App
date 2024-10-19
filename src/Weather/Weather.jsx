@@ -221,7 +221,7 @@ export default function Weather() {
     <div
       className="weather"
       style={{
-        backgroundImage: `url(${Sand})`,
+        backgroundImage: `url(${bgImage})`,
       }}>
       {loading ? (
         <Loader />
